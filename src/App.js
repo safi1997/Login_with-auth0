@@ -14,6 +14,7 @@ function App() {
   return (
     <div className="col-md-12 text-center">
       <LoginButton />
+
       <LogoutButton />
       <Profile />
     </div>

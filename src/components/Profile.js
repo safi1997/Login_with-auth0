@@ -12,7 +12,7 @@ const Profile = () => {
         <h2>{user.name}</h2>
         <p>{user.email}</p>
         <p>{user.nickname}</p>
-        <JSONPretty data={""} />
+        <JSONPretty data="Pleas Check it correct" />
         {/* {JSON.stringify(user, null, 2)} */}
       </div>
     )
